@@ -27,7 +27,7 @@ Once app is up and running you can use the following End Points:
 
 4.http://localhost:8080/api/v1/single?iata=LON => This returns Airport details
 
-Currently all these follow HTTP GET as we wanted to run these from browser.
+Currently all these follow HTTP GET so that we can run these from browser.
 
 All these are implemented using RequestParam while these can also be done using PathVariable as well.
 
