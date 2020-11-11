@@ -12,9 +12,13 @@ Steps to run:
 
 
 Once app is up and running you can use the following End Points:
+
 1.http://localhost:8080/api/v1/ping => This is to check that app us up and running.
+
 2.http://localhost:8080/api/v1/states?country=IN => To get states for specified country code.
+
 3.http://localhost:8080/api/v1/countries?field_name=A => To get countries starting with “A”
+
 4.http://localhost:8080/api/v1/single?iata=LON => This returns Airport details
 
 Currently all these follow HTTP GET as we wanted to run these from browser.
